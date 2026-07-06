@@ -1,6 +1,7 @@
 ---
 title: go-ghkeys
 ---
+
 **Fetch a GitHub user's SSH public keys from `https://github.com/<username>.keys` and convert the supported ones into [age](https://age-encryption.org) recipients.** Unsupported keys are skipped with a warning; failures carry a sentinel error matchable with `errors.Is`.
 
 - **Source:** [gomatic/go-ghkeys](https://github.com/gomatic/go-ghkeys)
